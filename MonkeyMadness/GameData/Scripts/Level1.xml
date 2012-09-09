@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Level />
+
+<Parallax MaxZoom="10" MinZoom="0.1" StartZoom="1.0">
+    <Layer Number="0" SpeedPercentX="0" SpeedPercentY="0" ZoomPercent="0" StartPosX="0" StartPosY="0" />
+</Parallax>
+
+<Entities>
+    <Sprite Id="Ground"  x="10" y="3" z="1" w="51" h="6" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "1" WrapX = "1024" WrapY = "300" Layer="12">
+        	<Image Id="Ground" />
+	</Sprite>
+
+    <Sprite Id="BackGround"  x="0" y="0" z="0" w="80" h="60" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="0">
+        <Image Id="JungleBackground" />
+	</Sprite>
+	<Player GrabStrength = "6500">
+        <Sprite Id="Hand" x="15" y="32" z="0" w="3" h="3" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap="0" WrapX="0" WrapY="0" Layer="63">
+            <Animation Id="HandCursor" />
+        </Sprite>
+    </Player>
+	<BodyChainAgent Id = "FirstTree" >
+		<BodyChain Id = "Main" NameAppendix = "Body"AnchorId = "" StartX = "40" StartY = "5" Length = "28" StartW = "7" EndW = "3" NumBodies = "3" OverlappingDist = "0.5" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-3" JointsLimMax = "3" EnableControl = "1" EnableAgentsAttaching = "0"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "1.5" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.4">
+			<Direction>
+					0,1
+			</Direction>	
+    		<Sprite Id="MainText"  x="40" y="30" z="20" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>				
+		</BodyChain>
+  		<BodyChain Id = "Branch0"  NameAppendix = "Body" AnchorId = "MainBody0" StartX = "43" StartY = "15" Length = "8" StartW = "1" EndW = "0.5" NumBodies = "2" OverlappingDist = "0.5" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-5" JointsLimMax = "5" EnableControl = "1" EnableAgentsAttaching = "1" MaxAttached = "3"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.2" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					0.6,0.4
+			</Direction>	
+    		<Sprite Id="Branch0Text"  x="40" y="30" z="16" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>						
+		</BodyChain>
+  		<BodyChain Id = "Branch00"  NameAppendix = "Body" AnchorId = "MainBody0" StartX = "37" StartY = "12" Length = "8" StartW = "1" EndW = "0.5" NumBodies = "2" OverlappingDist = "0.5" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-5" JointsLimMax = "5" EnableControl = "1" EnableAgentsAttaching = "1" MaxAttached = "3"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.2" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					-0.5,0.4
+			</Direction>	
+    		<Sprite Id="Branch0Text"  x="40" y="30" z="16" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>						
+		</BodyChain>
+
+  		<BodyChain Id = "Branch1"  NameAppendix = "Body" AnchorId = "MainBody1" StartX = "43" StartY = "20" Length = "15" StartW = "1" EndW = "0.5" NumBodies = "4" OverlappingDist = "0.5" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-3" JointsLimMax = "3" EnableControl = "1" EnableAgentsAttaching = "1" MaxAttached = "4"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.5" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					0.5,0.5
+			</Direction>	
+    		<Sprite Id="Branch1Text"  x="40" y="30" z="16" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>						
+		</BodyChain>
+  		<BodyChain Id = "Branch1SubBranch1"  NameAppendix = "Body" AnchorId = "Branch1Body3" StartX = "51" StartY = "28" Length = "6" StartW = "0.3" EndW = "0.1" NumBodies = "2" OverlappingDist = "0.1" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-5" JointsLimMax = "5" EnableControl = "1"  EnableAgentsAttaching = "1" MaxAttached = "1"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.1" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					0.3,0.8
+			</Direction>	
+    		<Sprite Id="Branch1SubBranch1Text"  x="40" y="30" z="15" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>						
+		</BodyChain>
+  		<BodyChain Id = "Branch2"  NameAppendix = "Body" AnchorId = "MainBody1" StartX = "37" StartY = "20" Length = "12" StartW = "2" EndW = "0.5" NumBodies = "4" OverlappingDist = "0.5" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-3" JointsLimMax = "3" EnableControl = "1" EnableAgentsAttaching = "1" MaxAttached = "5"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.5" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					-0.5,0.5
+			</Direction>
+	    		<Sprite Id="Branch2Text"  x="40" y="30" z="14" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>					
+		</BodyChain>
+  		<BodyChain Id = "Branch2SubBranch1"  NameAppendix = "Body" AnchorId = "Branch2Body3" StartX = "29.5" StartY = "27" Length = "4" StartW = "0.5" EndW = "0.1" NumBodies = "3" OverlappingDist = "0.1" 
+				          JointsMaxTorque = "5.0" JointsLimMin = "-5" JointsLimMax = "5" EnableControl = "1"  EnableAgentsAttaching = "1" MaxAttached = "1"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.3" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					-0.6,-0.3
+			</Direction>					
+    		<Sprite Id="Branch2SubBranch1Text"  x="40" y="30" z="13" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>		
+		</BodyChain>
+  		<BodyChain Id = "Branch2SubBranch2"  NameAppendix = "Body" AnchorId = "Branch2Body2" StartX = "35" StartY = "22" Length = "4" StartW = "0.5" EndW = "0.1" NumBodies = "3" OverlappingDist = "0.1" 
+				           JointsMaxTorque = "15.0" JointsLimMin = "-5" JointsLimMax = "5" EnableControl = "1" EnableAgentsAttaching = "1" MaxAttached = "1"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.3" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					-0.1,0.9
+			</Direction>	
+    		<Sprite Id="Branch2SubBranch2Text"  x="40" y="30" z="12" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>						
+		</BodyChain>
+  		<BodyChain Id = "Branch3"  NameAppendix = "Body" AnchorId = "MainBody1" StartX = "37" StartY = "26" Length = "8" StartW = "1" EndW = "0.5" NumBodies = "3" OverlappingDist = "0.5" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-4" JointsLimMax = "4" EnableControl = "1" EnableAgentsAttaching = "1" MaxAttached = "3"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.5" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					-0.5,0.5
+			</Direction>		
+    		<Sprite Id="Branch3Text"  x="40" y="30" z="10" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>					
+		</BodyChain>
+
+  		<BodyChain Id = "Branch4"  NameAppendix = "Body" AnchorId = "MainBody2" StartX = "43" StartY = "28" Length = "8" StartW = "0.5" EndW = "0.5" NumBodies = "3" OverlappingDist = "0.5" 
+				           JointsMaxTorque = "5.0" JointsLimMin = "-4" JointsLimMax = "4" EnableControl = "1"EnableAgentsAttaching = "1" MaxAttached = "3"
+                           AngDamping = "0.1" LinDamping = "0.0" Density = "0.5" Friction = "0.2" Restitution = "0.1" ParamsScaling = "0.7">
+			<Direction>
+					0.5,0.5
+			</Direction>		
+    		<Sprite Id="Branch4Text"  x="40" y="30" z="9" w="6" h="20" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="10">
+        		<Image Id="TreeText" />
+			</Sprite>					
+		</BodyChain>
+	</BodyChainAgent>
+  	
+	<Body Id="Hut" x="40" y="35" Rotation="0" LinDamping="0" AngDamping="0.1" IsStatic="0">
+        <PolygonShape Order="4" Density="0.1" Friction="1" Restitution="0" CollGroupIndex = "-1" CollMaskBits  = "1" CollCategoryBits ="2">-5,-5,5,-5,5,5,-5,5</PolygonShape>
+    	<Sprite Id="Hut"  x="40" y="30" z="50" w="10" h="10" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="11">
+        		<Image Id="JungleHut" />
+		</Sprite>		
+    </Body>
+	<Joint Id= "HutJoint" Type = "Revolute" MaxAngle = "4" MinAngle = "-4" Body1 = "Hut" Body2 = "MainBody2" AllowCollision ="0" LimitsOn = "1">
+		<Coordinates>
+			40,30.5
+		</Coordinates>
+	</Joint>
+
+
+	  <Body Id="Ground" x="40" y="3" Rotation="0" LinDamping="0" AngDamping="0.1" IsStatic="1">
+        <PolygonShape Order="4" Density="1000" Friction="1" Restitution="0">-38,-3,38,-3,38,3,-38,3</PolygonShape>
+    </Body>
+
+</Entities>

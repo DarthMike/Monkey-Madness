@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<audacityproject projname="Punches and Slaps_data" version="1.1.0" audacityversion="1.2.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="42.6374436592" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="43586__Syna_Max__punches_and_slaps" channel="0" linked="1" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1150144" >
+			<waveblock start="0" >
+				<pcmaliasblockfile summaryfile='b00000.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='0' aliaslen='262144' aliaschannel='0' min='-0.937561' max='0.999664' rms='0.052802'/>
+			</waveblock>
+			<waveblock start="262144" >
+				<pcmaliasblockfile summaryfile='b00002.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='262144' aliaslen='262144' aliaschannel='0' min='-0.922302' max='0.999969' rms='0.086351'/>
+			</waveblock>
+			<waveblock start="524288" >
+				<pcmaliasblockfile summaryfile='b00004.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='524288' aliaslen='262144' aliaschannel='0' min='-0.999969' max='0.977722' rms='0.128842'/>
+			</waveblock>
+			<waveblock start="786432" >
+				<pcmaliasblockfile summaryfile='b00006.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='786432' aliaslen='262144' aliaschannel='0' min='-0.987946' max='0.985077' rms='0.118927'/>
+			</waveblock>
+			<waveblock start="1048576" >
+				<pcmaliasblockfile summaryfile='b00008.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='1048576' aliaslen='101568' aliaschannel='0' min='-0.899658' max='0.942383' rms='0.074241'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="43586__Syna_Max__punches_and_slaps" channel="1" linked="0" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1150144" >
+			<waveblock start="0" >
+				<pcmaliasblockfile summaryfile='b00001.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='0' aliaslen='262144' aliaschannel='1' min='-0.937561' max='0.999664' rms='0.052802'/>
+			</waveblock>
+			<waveblock start="262144" >
+				<pcmaliasblockfile summaryfile='b00003.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='262144' aliaslen='262144' aliaschannel='1' min='-0.922302' max='0.999969' rms='0.086351'/>
+			</waveblock>
+			<waveblock start="524288" >
+				<pcmaliasblockfile summaryfile='b00005.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='524288' aliaslen='262144' aliaschannel='1' min='-0.999969' max='0.977722' rms='0.128842'/>
+			</waveblock>
+			<waveblock start="786432" >
+				<pcmaliasblockfile summaryfile='b00007.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='786432' aliaslen='262144' aliaschannel='1' min='-0.987946' max='0.985077' rms='0.118928'/>
+			</waveblock>
+			<waveblock start="1048576" >
+				<pcmaliasblockfile summaryfile='b00009.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\43586__Syna_Max__punches_and_slaps.wav' aliasstart='1048576' aliaslen='101568' aliaschannel='1' min='-0.899658' max='0.942383' rms='0.074241'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

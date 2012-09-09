@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+*******RESOURCES SCRIPT TO LEVEL************
+-----Remember that paths are relative to exe!--------------
+Remember that names have to be COHERENT in different XML file!
+-->
+
+<!--
+	EVERY GROUP OF RESOURCES TO LOAD IS DIVIDED IN LEVELS. THERE IS A LEVEL CALLED "COMMON" FOR COMMON
+    RESOURCES USED WIDELY OVER LEVELS // IMPORTANT \\ IT IS ALSO USED BY LEVEL EDITOR TO LOAD ASSETS FOR
+	LEVEL IN EDIT
+-->
+<Level Id = "Common">
+	<!-- Images to load / Leave empty if nothing is to be loaded, but section must exist -->
+	<!-- If no ColorKey values are provided, image is treated as RGBA, with alpha channel existent.... -->
+	<Images>
+		<StaticImage Id="GameTitle" Path ="..\GameData\Image\MainTitle.png" />
+		<StaticImage Id="MSG1" Path ="..\GameData\Image\MSG1.png" />
+		<StaticImage Id="MSG2" Path ="..\GameData\Image\MSG2.png" />
+		<StaticImage Id="MSG3" Path ="..\GameData\Image\MSG3.png" />
+		<StaticImage Id="MSG4" Path ="..\GameData\Image\MSG4.png" />
+		<StaticImage Id="OUTMSG" Path ="..\GameData\Image\OUTMSG.png" />\
+		<StaticImage Id="KOMSG" Path ="..\GameData\Image\KOMSG.png" />
+		<StaticImage Id="JungleBackground" Path ="..\GameData\Image\Jungle_Background.jpg" />
+		<StaticImage Id = "Ground" Path = "..\GameData\Image\Ground.jpg"/>
+		<Animation Id = "HandCursor" Path = "..\GameData\Image\HandAnims.xml"/>
+		<Animation Id = "Monkey" Path = "..\GameData\Image\MonkeyAnims.xml" />
+		<StaticImage Id = "TreeText" Path = "..\GameData\Image\TreeTexture.png"/>
+		<StaticImage Id="JungleHut" Path ="..\GameData\Image\JungleHut.png" />
+		<StaticImage Id="CreditsLetters" Path ="..\GameData\Image\CreditsLetters.png" />
+	</Images>
+
+    <!-- Fonts to load / Leave empty if nothing is to be loaded, but section must exist -->
+	<Fonts>
+		 <Font Id = "GenSmall" ImagePath = "..\GameData\Image\Font\font_small.png" ConfigPath = "..\GameData\Image\Font\font_small.xml"/>
+		 <Font Id = "GenBig" ImagePath = "..\GameData\Image\Font\font_big.png" ConfigPath = "..\GameData\Image\Font\font_big.xml"/>
+		 <Font Id = "MainFont" ImagePath = "..\GameData\Image\Font\MainFont.tga" ConfigPath = "..\GameData\Image\Font\MainFont.xml"/>
+    </Fonts>
+
+   <!-- Sounds to load / Leave empty if nothing is to be loaded, but section must exist -->
+   <Audio>
+	    <!-- FX will be loaded fully in memory when played - ONLY WAV SUPPORTED-->
+		<FX Id = "MonkeyChat1" Path = "..\GameData\Audio\Monkey1.wav" />
+		<FX Id = "MonkeyChat2" Path = "..\GameData\Audio\Monkey2.wav" />
+		<FX Id = "MonkeyCry1" Path = "..\GameData\Audio\MonkeyCry.wav" />
+		<FX Id = "MonkeyCry2" Path = "..\GameData\Audio\MonkeyCry2.wav" />
+		<FX Id = "MonkeyCry3" Path = "..\GameData\Audio\MonkeyCry3.wav" />
+		<FX Id = "MonkeyCry4" Path = "..\GameData\Audio\MonkeyCry4.wav" />
+		<FX Id = "BrokenBranch" Path = "..\GameData\Audio\CrackingDryWood_Modif.wav" />
+		<FX Id = "Punch1" Path = "..\GameData\Audio\Punch1.wav" />
+		<FX Id = "Punch2" Path = "..\GameData\Audio\Punch2.wav" />
+		<FX Id = "Slap1" Path = "..\GameData\Audio\Slap1.wav" />
+		<FX Id = "Slap2" Path = "..\GameData\Audio\Slap2.wav" />
+ 		<!-- Music will be streamed and decoded directly  - ONLY OGG SUPPORTED-->
+		<Music Id = "LevelMusic" Path = "..\GameData\Audio\Loading - Loop.ogg" />
+		<Music Id= "BackMusic" Path = "..\GameData\Audio\BackGround_Jungle.ogg" />
+		<Music Id= "LaughingBirdsMusic" Path = "..\GameData\Audio\Laughing_Birds.ogg"/>
+   </Audio>
+</Level>
+
+<Level Id = "Level1">
+	<!-- Images to load / Leave empty if nothing is to be loaded, but section must exist  -->
+	<Images>
+	</Images>
+
+    <!-- Fonts to load / Leave empty if nothing is to be loaded, but section must exist -->
+	<Fonts>
+    </Fonts>
+
+   <!-- Sounds to load / Leave empty if nothing is to be loaded, but section must exist -->
+   <Audio>
+   </Audio>
+</Level>

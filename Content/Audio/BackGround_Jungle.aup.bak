@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<audacityproject projname="BackGround_Jungle_data" version="1.1.0" audacityversion="1.2.6" sel0="0.0456723876" sel1="0.0456723876" vpos="0" h="0.0000000000" zoom="3481.3156973787" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="57555__digifishmusic__Flying_Fox_1" channel="0" linked="1" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1798233" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00025.au' len='257318' min='-0.097107' max='0.101990' rms='0.018453'/>
+			</waveblock>
+			<waveblock start="257318" >
+				<pcmaliasblockfile summaryfile='b00002.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='262144' aliaslen='262144' aliaschannel='0' min='-0.088226' max='0.077240' rms='0.016240'/>
+			</waveblock>
+			<waveblock start="519462" >
+				<pcmaliasblockfile summaryfile='b00004.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='524288' aliaslen='262144' aliaschannel='0' min='-0.128387' max='0.085449' rms='0.018068'/>
+			</waveblock>
+			<waveblock start="781606" >
+				<pcmaliasblockfile summaryfile='b00006.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='786432' aliaslen='262144' aliaschannel='0' min='-0.131256' max='0.077301' rms='0.018059'/>
+			</waveblock>
+			<waveblock start="1043750" >
+				<pcmaliasblockfile summaryfile='b00008.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='1048576' aliaslen='262144' aliaschannel='0' min='-0.203369' max='0.115967' rms='0.019316'/>
+			</waveblock>
+			<waveblock start="1305894" >
+				<pcmaliasblockfile summaryfile='b00010.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='1310720' aliaslen='262144' aliaschannel='0' min='-0.104004' max='0.114075' rms='0.019095'/>
+			</waveblock>
+			<waveblock start="1568038" >
+				<simpleblockfile filename='b00014.au' len='230195' min='-0.107819' max='0.094025' rms='0.016421'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="57555__digifishmusic__Flying_Fox_1" channel="1" linked="0" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1798233" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00027.au' len='257318' min='-0.120575' max='0.125793' rms='0.021734'/>
+			</waveblock>
+			<waveblock start="257318" >
+				<pcmaliasblockfile summaryfile='b00003.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='262144' aliaslen='262144' aliaschannel='1' min='-0.096466' max='0.086365' rms='0.019986'/>
+			</waveblock>
+			<waveblock start="519462" >
+				<pcmaliasblockfile summaryfile='b00005.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='524288' aliaslen='262144' aliaschannel='1' min='-0.150848' max='0.148743' rms='0.021933'/>
+			</waveblock>
+			<waveblock start="781606" >
+				<pcmaliasblockfile summaryfile='b00007.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='786432' aliaslen='262144' aliaschannel='1' min='-0.137421' max='0.086517' rms='0.021099'/>
+			</waveblock>
+			<waveblock start="1043750" >
+				<pcmaliasblockfile summaryfile='b00009.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='1048576' aliaslen='262144' aliaschannel='1' min='-0.154846' max='0.133911' rms='0.021880'/>
+			</waveblock>
+			<waveblock start="1305894" >
+				<pcmaliasblockfile summaryfile='b00011.auf' aliasfile='I:\PERSONAL\Game programming\Projects\100Things-EGP\Program\Content\Audio\57555__digifishmusic__Flying_Fox_1.wav' aliasstart='1310720' aliaslen='262144' aliaschannel='1' min='-0.140198' max='0.118134' rms='0.021804'/>
+			</waveblock>
+			<waveblock start="1568038" >
+				<simpleblockfile filename='b00015.au' len='230195' min='-0.128082' max='0.100983' rms='0.018849'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

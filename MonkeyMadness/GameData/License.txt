@@ -1,0 +1,23 @@
+----------AUDIO FX-----------:
+All audio FX used in the game are property of the respective authors.
+All files are freely available at http://www.freesound.org
+
+Files used:
+From: Timbre
+http://www.freesound.org/samplesViewSingle.php?id=87792
+From: sandyrb
+http://www.freesound.org/samplesViewSingle.php?id=41382
+From: digifishmusic
+http://www.freesound.org/samplesViewSingle.php?id=57555
+From: Syna-Max
+http://www.freesound.org/samplesViewSingle.php?id=43586
+From: scuzzpuck
+http://www.freesound.org/samplesViewSingle.php?id=40838
+From: HerbertBoland
+http://www.freesound.org/samplesViewSingle.php?id=33206
+
+-----------MUSIC-------------:
+The file "Loading - Loop.ogg" is cut from the song "Loading" by Skalissai:
+http://www.jamendo.com/en/track/511467 
+under license Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported
+http://creativecommons.org/licenses/by-nc-sa/3.0/

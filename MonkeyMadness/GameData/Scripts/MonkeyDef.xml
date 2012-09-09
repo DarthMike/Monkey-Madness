@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Monkeys AI = "MadMonkey" KOForce = "2.0" SteerForce = "5.0" MaxSpeedX = "12.0" MaxSpeedY = "45.0">
+    <Sprite Id="Monkey" x="0" y="0" z="0" w="2.5" h="2.5" Rotation="0" Transp="255" FlipX="0" FlipY="0" Wrap="0" WrapX="0" WrapY="0" Layer="11">
+            <Animation Id="Monkey" />
+    </Sprite>
+    <Body Id="MonkeyBody"LinDamping="0" AngDamping="0.1" IsStatic = "0">
+		<PolygonShape Order="4" Density="0.1" Friction="0.8" Restitution="0" Sensor = "0">-1,-1,1,-1,1,1,-1,1</PolygonShape>	
+		<PolygonShape Order="4" Density="0.1" Friction="0.8" Restitution="0" Sensor = "1	">-1,-1,1,-1,1,-0.8,-1,-0.8</PolygonShape>	
+    </Body>
+</Monkeys>

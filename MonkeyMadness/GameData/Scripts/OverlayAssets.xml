@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+*******CONFIGURATION SCRIPT TO OVERLAY************
+-----Remember that paths are relative to exe!--------------
+Remember that names have to be COHERENT in different XML file!
+-->
+
+<!-- Entities definition -->
+<Entities>
+	<!-- Tutorial Messages -->
+	<Sprite Id = "TutMSG1" x = "0" y ="0" z = "1"  w = "25" h = "25" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Image Id = "MSG1" />	
+	</Sprite>
+
+	<Sprite Id = "TutMSG2" x = "-19" y ="10" z = "1"  w = "25" h = "25" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Image Id = "MSG2" />	
+	</Sprite>
+
+	<Sprite Id = "TutMSG3" x = "19" y ="16" z = "1"  w = "25" h = "25" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Image Id = "MSG3" />	
+	</Sprite>
+
+	<Sprite Id = "TutMSG4" x = "-19" y ="12" z = "1"  w = "25" h = "25" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Image Id = "MSG4" />	
+	</Sprite>
+
+	<!-- Title of game -->
+	<Sprite Id = "Title" x = "0" y ="0" z = "1"  w = "45" h = "45" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Image Id = "GameTitle" />	
+	</Sprite>
+	<!-- Display Text -->
+	<Sprite Id = "DebugText" x = "-40" y ="20" z = "1"  w = "4" h = "1" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Font Id = "GenSmall" LineSpacing ="14" CharSpacing = "0" Align = "Left"/>	
+	</Sprite>
+
+	<Sprite Id = "MessagesText" x = "0" y ="10" z = "0"  w = "4" h = "1" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Font Id = "MainFont" LineSpacing ="30" CharSpacing = "0" Align = "Center"/>	
+	</Sprite>
+
+	<Sprite Id = "StatisticsText" x = "0" y ="31" z = "0"  w = "4" h = "1" Rotation = "0" Transp = "255" FlipX = "0" FlipY = "0" Wrap = "0" WrapX = "0" WrapY = "0" Layer="63">
+			<Font Id = "MainFont" LineSpacing ="30" CharSpacing = "0" Align = "Center"/>	
+	</Sprite>
+</Entities>

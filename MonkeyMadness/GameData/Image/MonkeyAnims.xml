@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation>
+	<!-- frames declaration -->
+	<frames>	
+		<!-- Jump Animation -->
+		<frame name ="Jump_00" file= "..\GameData\Image\MonkeyAnims\MonkeyAnims_Jump_00.png"collision="..\GameData\Image\MonkeyAnims\MonkeyAnims_collisions.xml"/>
+
+		<!-- KO Animation -->
+		<frame name ="KO_00" file= "..\GameData\Image\MonkeyAnims\MonkeyAnims_KO_00.png"collision="..\GameData\Image\MonkeyAnims\MonkeyAnims_collisions.xml"/>
+
+		<!-- Fly Animation -->
+		<frame name ="Fly_00" file= "..\GameData\Image\MonkeyAnims\MonkeyAnims_Fly_00.png"collision="..\GameData\Image\MonkeyAnims\MonkeyAnims_collisions.xml"/>
+
+		<!-- Hang Animation -->
+		<frame name ="Hang_00" file= "..\GameData\Image\MonkeyAnims\MonkeyAnims_Hang_00.png"collision="..\GameData\Image\MonkeyAnims\MonkeyAnims_collisions.xml"/>
+	</frames>
+		
+	<!-- sequences declaration -->
+	<sequences>
+		<!-- Monkey -->
+		<sequence name="Jump">
+			<frame name="Jump_00"  time="20" />
+		</sequence>		
+		<sequence name="Hang">
+			<frame name="Hang_00"  time="500" />
+		</sequence>		
+		<sequence name="Fly">
+			<frame name="Fly_00"  time="500" />
+		</sequence>		
+		<sequence name="KO">
+			<frame name="KO_00"  time="500" />
+		</sequence>						
+	</sequences>
+</animation>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<audacityproject projname="Laughing_Birds_data" version="1.1.0" audacityversion="1.2.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="37.4098019247" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="87792__Timbre__Compressed_Kookaburra" channel="0" linked="1" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1310865" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00037.au' len='220504' min='-0.891251' max='0.507100' rms='0.120642'/>
+			</waveblock>
+			<waveblock start="220504" >
+				<simpleblockfile filename='b00040.au' len='176824' min='-0.742725' max='0.755855' rms='0.109161'/>
+			</waveblock>
+			<waveblock start="397328" >
+				<simpleblockfile filename='b00042.au' len='252123' min='-0.884164' max='0.837667' rms='0.152403'/>
+			</waveblock>
+			<waveblock start="649451" >
+				<simpleblockfile filename='b00043.au' len='186845' min='-0.887169' max='0.691790' rms='0.147818'/>
+			</waveblock>
+			<waveblock start="836296" >
+				<simpleblockfile filename='b00046.au' len='178307' min='-0.728659' max='0.677685' rms='0.133704'/>
+			</waveblock>
+			<waveblock start="1014603" >
+				<simpleblockfile filename='b00027.au' len='148131' min='-0.850344' max='0.824821' rms='0.144839'/>
+			</waveblock>
+			<waveblock start="1162734" >
+				<simpleblockfile filename='b00028.au' len='148131' min='-0.699129' max='0.702124' rms='0.133454'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="87792__Timbre__Compressed_Kookaburra" channel="1" linked="0" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="1310865" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00039.au' len='220504' min='-0.890730' max='0.405732' rms='0.087549'/>
+			</waveblock>
+			<waveblock start="220504" >
+				<simpleblockfile filename='b00041.au' len='176824' min='-0.545011' max='0.564373' rms='0.076887'/>
+			</waveblock>
+			<waveblock start="397328" >
+				<simpleblockfile filename='b00044.au' len='252123' min='-0.889488' max='0.694136' rms='0.108762'/>
+			</waveblock>
+			<waveblock start="649451" >
+				<simpleblockfile filename='b00045.au' len='186845' min='-0.889690' max='0.570780' rms='0.110426'/>
+			</waveblock>
+			<waveblock start="836296" >
+				<simpleblockfile filename='b00047.au' len='178307' min='-0.548970' max='0.407771' rms='0.091875'/>
+			</waveblock>
+			<waveblock start="1014603" >
+				<simpleblockfile filename='b00030.au' len='148131' min='-0.891251' max='0.674475' rms='0.112724'/>
+			</waveblock>
+			<waveblock start="1162734" >
+				<simpleblockfile filename='b00031.au' len='148131' min='-0.569090' max='0.587178' rms='0.095836'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="Laughing_Birds" channel="0" linked="1" offset="2.27213152" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="524288" sampleformat="131073" numsamples="1310865" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00048.au' len='524288' min='-0.947448' max='0.777981' rms='0.133433'/>
+			</waveblock>
+			<waveblock start="524288" >
+				<simpleblockfile filename='b00050.au' len='524288' min='-0.941375' max='0.780301' rms='0.141877'/>
+			</waveblock>
+			<waveblock start="1048576" >
+				<simpleblockfile filename='b00052.au' len='262289' min='-0.842557' max='0.904570' rms='0.146355'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="Laughing_Birds" channel="1" linked="0" offset="2.27213152" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="524288" sampleformat="131073" numsamples="1310865" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00049.au' len='524288' min='-0.913390' max='0.841093' rms='0.096131'/>
+			</waveblock>
+			<waveblock start="524288" >
+				<simpleblockfile filename='b00051.au' len='524288' min='-0.915526' max='0.656916' rms='0.100932'/>
+			</waveblock>
+			<waveblock start="1048576" >
+				<simpleblockfile filename='b00053.au' len='262289' min='-0.909667' max='0.708247' rms='0.108372'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

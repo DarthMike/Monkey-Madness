@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<audacityproject projname="MonkeyCry_data" version="1.1.0" audacityversion="1.2.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="315.0364250748" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="41382__sandyrb__FAKE_MONKEY_CHATTER_001" channel="2" linked="0" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="155662" >
+			<waveblock start="0" >
+				<pcmaliasblockfile summaryfile='b00001.auf' aliasfile='I:\PERSONAL\Game programming\Resources\Sounds\MADMONKEYS\41382__sandyrb__FAKE_MONKEY_CHATTER_001.wav' aliasstart='0' aliaslen='155662' aliaschannel='0' min='-0.995728' max='0.839874' rms='0.126750'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation>
+	<!-- frames declaration -->
+	<frames>	
+		<frame name ="Opened" file= "..\GameData\Image\HandAnims\Hand.png"collision="..\GameData\Image\MonkeyAnims\MonkeyAnims_collisions.xml"/>
+		<frame name ="Closed" file= "..\GameData\Image\HandAnims\ClosedHand.png"collision="..\GameData\Image\MonkeyAnims\MonkeyAnims_collisions.xml"/>
+	</frames>
+		
+	<!-- sequences declaration -->
+	<sequences>
+		<!-- Open Hand -->
+		<sequence name="Open">
+			<frame name="Opened"  time="500" />
+		</sequence>						
+		<sequence name="Close">
+			<frame name="Closed"  time="500" />
+		</sequence>	
+	</sequences>
+</animation>
